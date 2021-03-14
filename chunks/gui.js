@@ -95,6 +95,9 @@ __webpack_require__.r(__webpack_exports__);
 
 _lib_analytics__WEBPACK_IMPORTED_MODULE_6__["default"].pageview('/');
 var appTarget = document.createElement('div');
+appTarget.id = 'app';
+/*akaii*/
+
 appTarget.className = _index_css__WEBPACK_IMPORTED_MODULE_10___default.a.app;
 document.body.appendChild(appTarget);
 
